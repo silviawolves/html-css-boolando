@@ -3,3 +3,58 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #FF6900;
+    min-height: 40px;
+    width: 100%;
+    box-shadow: 0px 1px 5px -1px #000;
+    position: fixed;
+    padding: .8rem 0;
+}
+
+.container {
+    width: 1000px;
+    min-height: 30px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.header-categories {
+    width: 20%;
+}
+
+.header-categories a {
+    text-decoration: none;
+    color: white;
+    font-size: .8rem;
+    font-weight: 800;
+    margin-right: 5px;
+}
+
+header .header-logo {
+    height: 100%;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.header-logo img {
+    height: 25px;
+    vertical-align: middle;
+}
+
+.header-menu {
+    width: 20%;
+    text-align: right;
+}
+
+.header-menu svg {
+    height: 13px;
+    fill: white;
+}
