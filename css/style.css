@@ -30,6 +30,11 @@ h5 {
     text-transform: uppercase;
 }
 
+h6 {
+    font-size: .9rem;
+    line-height: 25px;
+}
+
 .container {
     max-width: 1000px;
     width: 100%;
@@ -181,5 +186,42 @@ h5 {
 /* footer */
 footer {
     background-color: #1A1A1A;
-    /* min-height: 60px; */
+    min-height: 60px;
+    color: white;
+}
+
+.footer-specifics {
+    display: flex;
+    min-height: 60px;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.footer-col-left {
+    flex-grow: 1;
+}
+
+.footer-col-left a {
+    text-decoration: none;
+    color: white;
+    font-size: .7rem;
+}
+
+.footer-col-right {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.footer-col-right svg {
+    height: 15px;
+    fill: white;
+    margin-left: 3px;
+}
+
+.footer-title {
+    font-size: .7rem;
+    margin-right: 5px;
 }
