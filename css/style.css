@@ -138,7 +138,7 @@ h6 {
 }
 
 .product .product-specifics {
-    height: 70px;
+    min-height: 70px;
     font-size: .65rem;
     padding-top: 5px;
 }
