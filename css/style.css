@@ -111,7 +111,7 @@ h6 {
 
 .product {
     width: 100%;
-    height: calc(463px + 70px);
+    min-height: calc(463px + 70px);
     position: relative;
 }
 
